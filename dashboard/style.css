@@ -1,0 +1,76 @@
+/* Royal Palace Dark Theme for InfraRisk AI */
+
+/* Main background and text */
+.stApp {
+    background-color: #0d0d0d !important;
+    background-image: radial-gradient(circle at 50% 0%, #1a1a1a, #000000) !important;
+    color: #e5e5e5 !important;
+    font-family: 'Cinzel', serif !important; /* Classic serif font */
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #050505 !important;
+    border-right: 2px solid #cfb53b !important; /* Golden border */
+    box-shadow: 2px 0 15px rgba(207, 181, 59, 0.2);
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #cfb53b !important; /* Royal Gold */
+    font-weight: 600 !important;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+    font-family: 'Cinzel', 'Times New Roman', serif !important;
+}
+
+/* Cards and Metric containers */
+[data-testid="metric-container"], .css-1r6slb0, .css-12oz5g7 {
+    background: linear-gradient(145deg, #121212, #1c1c1c) !important;
+    border: 1px solid #cfb53b !important; /* Golden border */
+    border-radius: 8px !important;
+    padding: 15px !important;
+    box-shadow: 0 4px 10px rgba(207, 181, 59, 0.15) !important;
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(145deg, #cfb53b, #a68b28) !important;
+    color: #000000 !important;
+    border: 1px solid #ffdf00 !important;
+    border-radius: 5px !important;
+    font-weight: bold !important;
+    font-family: 'Cinzel', serif !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 5px rgba(207, 181, 59, 0.4) !important;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(145deg, #ffdf00, #cfb53b) !important;
+    border-color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(207, 181, 59, 0.6) !important;
+}
+
+/* Inputs and sliders */
+.stTextInput>div>div>input, .stNumberInput>div>div>input {
+    background-color: #1a1a1a !important;
+    color: #cfb53b !important;
+    border: 1px solid #cfb53b !important;
+    border-radius: 4px !important;
+}
+
+.stSlider > div > div > div {
+    background-color: #cfb53b !important;
+}
+
+/* DataFrames / Tables */
+.stDataFrame {
+    border: 2px solid #cfb53b !important;
+    border-radius: 5px !important;
+}
+
+/* Subtle gold accents for dividers */
+hr {
+    border-top: 1px solid #cfb53b !important;
+    opacity: 0.5;
+}

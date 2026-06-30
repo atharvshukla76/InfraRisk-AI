@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  infrarisk-platform:
+    build: .
+    container_name: infrarisk_ai
+    ports:
+      - "8000:8000"
+      - "8501:8501"
+    environment:
+      - ENV=development
+    volumes:
+      - ./src:/app/src
+      - ./dashboard:/app/dashboard
+      - ./data:/app/data
