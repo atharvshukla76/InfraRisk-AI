@@ -4,7 +4,7 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen)
 
-🌐 **Live Interactive Demo:** [Launch InfraRisk AI Dashboard](https://infrarisk-ai-xgwpbem8ryumo9nkxldray.streamlit.app/)
+🌐 **Live Interactive Demo:** [Launch InfraRisk AI Dashboard](https://infrarisk-ai-jdbn7hyqjfybclfjskqsha.streamlit.app/)
 
 InfraRisk AI is an advanced, enterprise-grade AI system that integrates geospatial intelligence, macroeconomic modeling, construction engineering analytics, and financial risk quantification into a unified infrastructure project finance platform.
 
